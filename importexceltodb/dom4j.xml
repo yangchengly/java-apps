@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="students.xsl"?>
+<students>
+	<!--A Student Catalog -->
+	<student sn="01">
+		<name>sam</name>
+		<age>18</age>
+	</student>
+	<student sn="02">
+		<name>lin</name>
+		<age>20</age>
+	</student>
+	<form id="Start">
+		<block>
+			<submit next="a"></submit>
+		</block>
+	</form>
+</students>
