@@ -1,13 +1,12 @@
 package com.avaya.aps.elasticsearch.es_java_tcpclient;
 
-import java.io.BufferedReader;
 import java.io.File;
 
 public class FileReader {
 	
 	public static final String LOG_FILE_DIR = "D:/log/";
 	
-	private BufferedReader br;
+//	private BufferedReader br;
 	
 	public void read() {
 		File file = new File(LOG_FILE_DIR);
